@@ -24,7 +24,7 @@ public class ShapeFactoryTest {
     // Test method to create an invalid shape using ShapeFactory
     @Test
     public void testCreateInvalidShape() {
-        Shape invalidShape = ShapeFactory.createShape("triangle");
+        Shape invalidShape = ShapeFactory.createShape("pentagon");
         assertNull(invalidShape); // Check if the created shape is null for an invalid shape type
     }
 }
